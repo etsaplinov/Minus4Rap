@@ -1,0 +1,34 @@
+root { 
+    display: block;
+}
+
+body,html
+{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.tableDefault
+{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    border-collapse: collapse;
+}
+
+.tableDefault td
+{
+    border:1px solid black;    
+    vertical-align: top;
+    padding:5px;
+}
+.tableDefault th
+{
+    border:1px solid black;    
+    vertical-align: top;
+    font-weight: bold;
+    background-color: lightblue;
+    padding:2px;
+}
